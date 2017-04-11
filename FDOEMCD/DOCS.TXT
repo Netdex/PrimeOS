@@ -1,0 +1,5 @@
+http://www.rhide.com/doc/rhide_3.html
+http://www.delorie.com/djgpp/doc/ug/intro/your-first.html
+http://www.brackeen.com/vga/intro.html
+http://www.fdos.org/bootdisks/ISO/README.TXT
+https://sourceforge.net/p/freedos/mailman/message/5157810/

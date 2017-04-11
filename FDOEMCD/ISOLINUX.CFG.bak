@@ -1,0 +1,31 @@
+prompt 1
+default BootCD
+ontimeout hd
+display BOOTMSG.TXT
+timeout 150
+
+# FreeDOS OEM bootdisk, 360KB zip compressed
+label BootCD
+    kernel memdisk 
+    append initrd=BTDSK.IMG
+
+# overloading is a nice thing. Specify FreeDOS, and if another one is present
+# it gets loaded instead for my own cdrom.
+F1 F1_HELP.TXT
+F2 F2_LICEN.TXT
+F3 BOOTMSG.TXT
+F4 F_ABOUT.TXT
+F5 F_ABOUT.TXT
+F6 F_ABOUT.TXT
+F7 F_ABOUT.TXT
+F8 F_ABOUT.TXT
+F9 F_ABOUT.TXT
+F0 F_ABOUT.TXT
+
+label hd
+	localboot 0x80
+label floppy
+	localboot 0x00
+# cancel and try next boot device
+label q
+	localboot -1

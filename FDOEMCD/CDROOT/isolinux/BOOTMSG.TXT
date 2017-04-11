@@ -1,0 +1,13 @@
+1717
+17                 1fÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿17
+17                 1f³1e    FreeDOS OEM bootable CD-ROM           1f³17
+17                 1f³1e      http://www.freedos.org/             1f³17
+17                 1fÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ17
+17
+17
+17
+17
+17Press 0bENTER1f to continue booting from CD-ROM.
+17
+17When no key is pressed within 15 sec, harddisk will be booted...
+17
