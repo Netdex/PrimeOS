@@ -1,5 +1,7 @@
 # PrimeOS
-An operating system that can only generate primes, ad infinitum.
+An operating system that can only generate primes, ad infinitum. Generates them at a steady rate of 1 prime/sec.
+
+![alt text?](https://my.mixtape.moe/zwcyfk.png)
 
 This operating system is a modified FreeDos disk running a crappy prime generator written in C, using the DPMI so we have enough ram to generate `thicc primes`.
 
