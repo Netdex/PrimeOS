@@ -21,6 +21,8 @@ OR
 
 Use the file `primeos.iso` available in the root of this repo.
 
+oh yeah, i forgot to mention, you need a 16-bit support to compile this, so nothing x64 will do ~
+
 ## omg, how do i install it on my own computer
 I'm glad you asked. Build it, get the ISO, then burn its essence onto your computer's hard drive after performing a rain dance and sacrificing a goat.
 
