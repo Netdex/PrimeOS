@@ -1,7 +1,10 @@
 # PrimeOS
 An operating system that can only generate primes, ad infinitum. Generates them at a steady rate of 1 prime/sec.
 
-![alt text?](https://my.mixtape.moe/zwcyfk.png)
+![alt text?](https://my.mixtape.moe/sktcae.png)
+
+[demo](https://streamable.com/d18ht)
+
 
 This operating system is a modified FreeDos disk running a crappy prime generator written in C, using the DPMI so we have enough ram to generate `thicc primes`.
 
@@ -11,7 +14,7 @@ Uses the [FreeDOS OEM Disk Builder](http://www.fdos.org/bootdisks/ISO/README.TXT
 I don't know.
 
 ## Build Instructions
-1. Build `CPrimes` using `RHIDE` (yes, I used `RHIDE` for this, don't judge me) in a `DJGPP` build environment.
+1. Build `CPrimes` using `make` in the `src` directory, with a DJGPP build environment.
 2. Copy `primes.exe` into the `CDROOT` folder in `FDOEMCD`.
 3. Modify the `ISOLINUX` configuration and `AUTORUN.BAT` to suit your liking (I already configured them nicely)
 4. Run `makeiso.bat` in the `FDOEMCD` directory to create `fdoem.iso`
