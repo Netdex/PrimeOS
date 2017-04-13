@@ -35,7 +35,7 @@ int main(){
         if(is_prime(i)){
             draw_number(i);
 			vga_swap(1);
-            delay(500);
+            delay(100);
         }
         ++i;
     }
